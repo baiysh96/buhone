@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+    background-color: black;
+    padding: 30px;
+
+}
+
+.header-img {
+    margin-bottom: 20px;
+}
+
+.header-btn {
+    color: dodgerblue;
+    background-color: transparent;
+    border: 1px solid dodgerblue;;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.header-btn:hover {
+    color: white;
+}
+
+.head {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.head-link {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+
+
+}
+
+.head-link:hover {
+    background-color: #9ba8a8;
+}
+
+
+.hero {
+    background: url("../images/city.png") fixed no-repeat center/cover;
+    padding: 50px 80px;
+}
+
+.hero-title {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 48px;
+
+}
+
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: #18afb4;
+}
+
+.info {
+    background-color: white;
+    padding: 50px 80px;
+
+}
+
+.info-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 48px;
+
+}
+
+span {
+    color: dodgerblue;
+    margin-bottom: 10px;
+}
+
+.info-disc {
+    margin-bottom: 15px;
+}
+
+.info-content {
+    background-color: darkgrey;
+    padding: 50px;
+
+
+}
+
+.info-content-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.info-content-subtitle {
+    margin-bottom: 20px;
+}
+
+.info-content-link {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+.contact {
+    background: url("../images/city.png") fixed no-repeat center/ cover;
+    padding: 30px 80px;
+
+}
+
+.contact-title {
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.contact-question {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.name, .surname, textarea {
+    width: 255px;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px solid #bdbdbd;
+    color: #969292;
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    color: #c6f5f5;
+
+}
+
+.form-name, .form-surname, .form-txt {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.footer {
+    text-align: center;
+    color: dodgerblue;
+    padding: 30px;
+    font-size: 14px;
+
+}
